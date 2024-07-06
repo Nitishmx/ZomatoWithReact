@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    /* overflow-x: hidden; */
+}
+.navbar11{
+    display: flex;
+    /* background-color: red; */
+    /* width: 10vw; */
+    /* margin: auto; */
+    /* margin-left: 4rem; */
+    /* min-width: 40vw; */
+    /* justify-content: space-between; */
+    /* margin-right: 4rem; */
+    width:90%;
+    margin: auto;
+    /* margin-top: 1rem; */
+    gap: 4rem;
+    position: relative;
+}
+.logingparr{
+    display: flex;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: rgb(105, 105, 105);
+    gap: 30px;
+    align-items: center;
+    /* text-align: start; */
+    opacity: 0.98;
+    cursor: pointer;
+    border: solid rgba(0, 0, 0, 0.264) 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(28, 40, 28, 0.90) 0px 2px 8px; */
+    border: 1px solid rgb(232, 232, 232);
+    background-color: rgb(255, 255, 255);
+}
+/* #inputstyling{
+    border: solid rgba(0, 0, 0, 0.264) 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(28, 40, 28, 0.90) 0px 2px 8px; */
+    /* border: 1px solid rgb(232, 232, 232); */
+    /* background-color: rgb(255, 255, 255); */
+/* }  */
+#iconzomato4{
+    width: 148px;
+    height: 32px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+/* MAIN PART STYLE PROPERTIES APPLY */
+.maincontaint{
+    width: 100%;
+    /* background-color: red; */
+    /* margin: auto; */
+}
+.diningpart{
+    display: flex;
+    gap: 8rem;
+    margin-top: 1.2rem;
+}
+.imagedining{
+   /* font-size: 60px; */
+   height: 80px;
+   width: 80px;
+}
+.circlecreate{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(229, 243, 243);
+}
+.paradinin{
+    font-size: 1.6rem;
+    color: red;
+    font-weight: 500;
+    /* margin-top: 1rem; */
+    
+}
+.allcontaint{
+    width: 70%;
+    margin: auto;
+    margin-top: 1rem;
+}
+/* .imagecardfist{
+    width: 100%;
+    height: 99%;
+    border-radius: 10px;
+} */
+.girdbox{
+    width: 107%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(30,1fr);
+    width: 100%;
+    /* background-color: red; */
+    gap: 4rem;
+    /* overflow-x: hidden; */
+
+}
+.firstboxlognwood{
+    /* background-color: rebeccapurple; */
+    /* margin-top: 1rem; */
+    /* width: 410px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* width: 400px; */
+    height: 388px;
+    position: relative;
+    border-radius: 10px;
+
+    /* transition-duration: 10s; */
+}
+
+.firstboxlognwood:hover{
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    border: solid rgb(255, 255, 255);
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    
+    
+}
+.firstimagewood{
+    margin-left: 0.7rem;
+    width: 94%;
+    border-radius: 8px;
+    margin-top: 8px;
+    /* overflow-y: hidden; */
+}
+.cafefirst{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color:rgb(28, 28, 28);
+    margin-top: 0.6rem;
+
+}
+.rating{
+    display: flex;  
+    /* justify-content: space-between; */
+    border: solid 1px black;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.8rem;
+    padding: 4px;
+    background-color: rgba(0, 100, 0, 0.727);
+    color: white;
+    border-radius: 6px;
+    margin-right: 1rem;
+}
+.rating p{
+    font-size: 1.1rem;
+    font-weight: 600; 
+    color: rgb(105, 105, 105);
+    color: white;
+    /* margin-left: 4rem; */
+
+
+
+}
+.secondcafe{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0.8rem;
+    margin-top: 0.6rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(105, 105, 105);
+}
+.long{
+    /* margin-right:    0.8rem; */
+    margin-top: 0.6rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(105, 105, 105);
+    /* margin-bottom: 4rem; */
+
+}
+.opensat{
+    display: flex;
+    margin-top: 0.6rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    /* color: rgb(105, 105, 105); */
+    color: red;
+    justify-content: space-between;
+    margin-right: 0.8rem;
+}
+.boxlist00{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* background-color: red; */
+    margin: auto;
+    margin-top: 4rem;
+    height: 28rem;
+    border-radius: 10px;
+    background-color: rgb(248, 248, 248);
+    /* rgb(248, 248, 248); */
+
+
+
+}
+.parent-card1{
+    /* overflow-x: none; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    /* width: 100vw; */
+    /* margin: auto; */
+    width: 100%;
+    height: 86%;
+    gap: 1rem;
+    background-color: rgb(248, 248, 248);
+
+}
+.lastselection1111{
+    background-color:rgb(255, 251, 247); 
+    width: 100vw;
+    height: 500px;
+    overflow-y: hidden;
+}

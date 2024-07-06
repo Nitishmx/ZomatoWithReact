@@ -1,0 +1,62 @@
+.middlePart-containt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 82vh;
+    /* background-color: burlywood; */
+    position: absolute;
+    top: -40px;
+    left: 320px;
+    /* z-index: 1; */
+
+}
+.para{
+    font-size: 2.8rem;
+    color: white;
+    margin-bottom: 2%;
+
+}
+.zomatoicon{
+    width: 300px;
+    margin-bottom: 2%;
+}
+.inputstyle{
+    background-color: white;
+    width: 60vw;
+    height: 4rem;
+    border-radius: 0.4rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    overflow-y: hidden;
+}
+.iconlocation{
+    font-size: 4rem;
+    color: red;
+}
+.bhopal{
+    height: 100%;   
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    width: 12rem;
+    cursor: pointer;
+}
+.inputfill{
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    padding-left: 1.2rem;
+    color: red;
+    /* background-color: red; */
+    width: 82vw;
+
+}
+.iconsearch{
+    position: relative;
+    left: 2%;
+    font-size: 4rem;
+    opacity: 0.60;
+}

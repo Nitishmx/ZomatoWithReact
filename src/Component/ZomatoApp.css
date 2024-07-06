@@ -1,0 +1,80 @@
+.zomatoapp{
+    background-color: rgb(255, 251, 247);
+    /* background-color: red; */
+}
+.midspace{
+    /* background-color: red; */
+    margin: auto;
+    width: 64vw;
+}
+.mobilesection{
+    /* margin-top: 4rem; */
+    display: flex;
+}
+.mobileimage{
+    width: 400px;
+    height: 340px;
+    margin-top: 6rem;
+}
+.zomatoappleft{
+    margin-top: 2.8rem;
+    margin-left: 2rem;
+}
+.zomatoappleft h1{
+    font-weight: 400;
+    font-size: 4rem;
+    opacity: 0.82;
+}
+.mobilpara p{
+    font-size: 1.4rem;
+    opacity: 0.84;
+}
+.mobilpara span{
+    font-size: 1.4rem;
+    opacity: 0.84;
+}
+.inputratio{
+    margin-top: 2rem;
+    margin-bottom: 1.4rem;
+    /* background-color: red; */
+    width: 12rem;
+    display: flex;
+    justify-content: space-between;
+}
+.inputratio label{
+    font-size: 1.8rem;
+    /* margin-left: 2rem; */
+}
+.inputemail-button{
+    display: flex;
+    gap: 1rem;
+}
+.inputemail{
+    width: 20rem;
+    height: 3.6rem;
+    font-size: 1.4rem;
+    padding-left: 12px;
+    border-radius: 4px;
+    border: solid 2px rgba(255, 0, 0, 0.351);
+    outline: none;
+    cursor: pointer;
+    color: red;
+}
+button{
+    width: 12rem;
+    height: 3.6rem;
+    font-size: 1.4rem;
+    padding-left: 12px;
+    border-radius: 4px;
+    /* border: solid 2px rgba(255, 0, 0, 0.351); */
+    outline: none;
+    background-color: rgb(54, 54, 54);
+    cursor: pointer;
+    color:rgba(255, 255, 255, 0.818);
+
+}
+.downloadpara{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    opacity: 0.94;
+}
